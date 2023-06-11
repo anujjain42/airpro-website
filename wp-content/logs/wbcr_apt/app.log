@@ -1,0 +1,35 @@
+
+30-04-2023 05:39:54 [localhost][info] Posts query: array (
+  'has_thumb' => false,
+  'type' => true,
+  'status' => 'post',
+  'category' => 0,
+  'date_start' => 0,
+  'date_end' => 0,
+)
+30-04-2023 05:39:54 [localhost][info] Posts query: array (
+  'has_thumb' => true,
+  'type' => true,
+  'status' => 'post',
+  'category' => 0,
+  'date_start' => 0,
+  'date_end' => 0,
+)
+-------------------------------
+30-04-2023 05:40:51 [localhost][info] Posts query: array (
+  'has_thumb' => false,
+  'type' => true,
+  'status' => 'post',
+  'category' => 0,
+  'date_start' => 0,
+  'date_end' => 0,
+)
+30-04-2023 05:40:51 [localhost][info] Posts query: array (
+  'has_thumb' => true,
+  'type' => true,
+  'status' => 'post',
+  'category' => 0,
+  'date_start' => 0,
+  'date_end' => 0,
+)
+-------------------------------

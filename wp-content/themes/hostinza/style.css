@@ -1,0 +1,341 @@
+/**
+* Theme Name: Hostinza
+* Theme URI: https://themeforest.net/user/xpeedstudio/portfolio
+* Description: Hostinza is a powerful and modern Hosting responsive WordPress Theme.
+* Version: 2.9.5
+* Author: XpeedStudio
+* Author URI: http://www.xpeedstudio.com
+* License: GNU General Public License version 3.0
+* License URI: http://www.gnu.org/licenses/gpl-3.0.html
+* Tags: one-column, right-sidebar, left-sidebar, custom-menu, featured-images, post-formats, sticky-post, translation-ready
+* Text Domain: hostinza
+*
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+.footer-logo img{
+	width: 150px;
+}
+
+body .container {
+	max-width: 1320px;
+}
+
+.tlp-portfolio-container.tlp-single-detail{
+	max-width: 100%;
+	background:#fff;
+	margin-top: 0;
+	padding-top: 120px;
+	color: #fff;
+}
+
+.tlp-portfolio-container > .tlp-portfolio-detail-wrap{
+	max-width: 1350px;
+	margin: auto;
+	padding: 0 15px 40px;
+}
+
+.tlp-portfolio-detail-wrap.description-section{
+	background: #fff;
+	padding: 50px 0;
+	max-width: 100% !important;
+	width: 100%;
+	margin: auto;
+}
+
+.tlp-portfolio-detail-wrap.description-section .portfolio-details{
+	max-width: 1350px;
+	margin: auto;
+	padding: 0 15px;
+	width: 100%;
+}
+
+.single-portfolio .portfolio-feature-img img{
+	width: 85%;
+}
+
+.client-name label{
+	display:none;
+}
+
+.tlp-portfolio-detail-wrap .portfolio-detail-desc{
+	color:#000;
+}
+
+.tlp-portfolio-container.tlp-single-detail h2.portfolio-title{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.xs-megamenu ul.nav-dropdown{
+	width: 100% !important;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header-transparent .xs-top-bar {
+  background-color: #100746 !important;
+}
+
+.top-menu li{
+	margin-right: 10px !important;
+}
+
+body .xs-service-block{
+	padding: 30px;
+}
+
+body .main-nav-tab-2 li {
+	width: calc(100% / 6);
+}
+
+.footer-widget ul{
+	padding:0;
+	color:#fff;
+}
+
+.footer-widget ul li{
+	padding:5px 0
+}
+
+.footer-widget .menu li a{
+	color:#fff;
+}
+
+
+body .footer-copyright ul.social-list{
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	color: #fff;
+	margin: 0;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: 600 !important;
+}
+
+h1, h2{
+	font-weight: 700 !important;
+}
+
+.footer-copyright .social-list li a{
+	color:#fff;
+}
+
+.type-portfolio .post-body{
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100% !important;
+	background: none !important;
+}
+
+.type-portfolio h2.entry-title{
+	font-size: 0.92rem;
+	font-weight: 500 !important;
+	margin: 0 !important;
+	min-height: 60px;
+	background: #15095E;
+	color: #fff;
+}
+
+.type-portfolio h2.entry-title a{
+	color: #fff;
+	padding: 13px;
+}
+
+.type-portfolio h2.entry-title a:hover{
+	color:#fff;
+}
+
+.type-portfolio h2.entry-title a{
+	letter-spacing: 0.5px;
+}
+
+.tlp-single-item .type-portfolio{
+	border: 3px solid #E8E9FC;
+}
+
+.tlp-single-item .type-portfolio .portfolio-short-details{
+	height: 0;
+	opacity: 0;
+	transition: ease all 0.5s;
+	transform: translateY(-20%);
+	position: absolute;
+	background: #fff;
+	border: 3px solid #E8E9FC;
+	left: -3px;
+	right: -3px;
+	overflow: auto;
+}
+
+.tlp-single-item .type-portfolio:hover .portfolio-short-details{
+	height: 220px;
+	opacity: 1;
+	transform: translateY(0);
+	padding: 15px;
+}
+
+.tlp-single-item .type-portfolio .portfolio-short-details ul{
+	padding:0
+}
+
+html body {
+  color: #333;
+}
+
+.tlp-single-item .type-portfolio .portfolio-short-details ul li{
+	list-style-position: outside;
+	margin: 0 0 10px 5px;
+	line-height: 20px;
+}
+
+body .tlp-single-item .portfolio{
+	margin-bottom: 35px;
+}
+
+.tlp-single-item .portfolio .post-media{
+	min-height: 290px;
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	min-height: 320px;
+}
+
+.tlp-single-item .portfolio .post-media img{
+	height: 250px;
+	object-fit: contain;
+}
+
+body .xs-section-padding {
+  padding: 70px 0;
+}
+
+body .portfolio-detail-desc .portfolio-short-details ul li{
+	list-style: disc !important;
+	margin-left: 14px;
+}
+
+body .xs-banner.inner-banner {
+  min-height: 380px;
+}
+
+footer .footer-bottom{
+	display:none;
+}
+
+.home-blog .xs-blog-post .entry-title{
+	font-weight: 600 !important;
+	font-size: 1.1rem;
+}
+
+body .xs-banner.service-banner {
+	min-height: 500px;
+}
+
+body .xs-heading {
+	margin-bottom: 25px;
+}
+
+body .elementor-widget-text-editor{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color:#444D72;
+	letter-spacing: normal;
+}
+
+.cloud-box .xs-service-block:hover,
+.cloud-box .xs-service-block.active{
+	background-color: #15095E;
+}
+
+.home-solution-section .feature-image-content img{
+	border-radius: 20px 130px 20px 130px;
+}
+
+header.xs-header{
+	background: #15095e;
+}
+
+body .header-transparent{
+	position: sticky;
+	top: 0;
+}
+
+body .wp-block-themepunch-revslider{
+	margin-top: 0 !important;
+}
+
+.home-top-slider .elementor-widget-wrap{
+	padding-top: 0 !important;
+}
+
+.xs-megamenu .elementor-image-box-wrapper{
+	align-items: center !important;
+}
+
+.xs-megamenu .elementor-image-box-wrapper .elementor-image-box-img{
+	margin-right: 10px !important;
+}
+
+body .why-choose-us-block{
+	padding: 0;
+}
+
+.bg-overlay{
+	position:relative;
+}
+
+.bg-overlay:before{
+	content:"";
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(bottom to, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	position:absolute;
+	top:0;
+	z-index:1;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+}
+
+.bg-overlay .elementor-container{
+	z-index: 1;
+}
+
+.xs-table .domain-pricing-header th{
+	padding: 8px 10px;
+}
+
+.elementor-widget-xs-domain-pricing .xs-table td, .elementor-widget-xs-domain-pricing .xs-table th{
+	text-align: left;
+	padding: 8px 10px;
+}
+
+.product-des{
+	margin:0 !important
+}
+
+.product-des h4, .product-des h3{
+	margin:0 !important
+}
+
+.elementor-widget-xs-domain-pricing table tr th{
+	width: 30%;
+	font-weight: normal;
+	background: #efefef;
+}
+
+.elementor-widget-xs-domain-pricing table tr td{
+	width:70%
+}
+
+.xs-table .domain-pricing-header th{
+	padding: 8px 10px !important;
+}
