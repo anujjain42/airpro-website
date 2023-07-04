@@ -171,6 +171,7 @@ h1, h2{
 	left: -3px;
 	right: -3px;
 	overflow: auto;
+	font-size: 13px;
 }
 
 .tlp-single-item .type-portfolio:hover .portfolio-short-details{
@@ -243,9 +244,9 @@ body .xs-heading {
 
 body .elementor-widget-text-editor{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 500;
-	color:#444D72;
+	color:#333;
 	letter-spacing: normal;
 }
 
@@ -338,4 +339,39 @@ body .why-choose-us-block{
 
 .xs-table .domain-pricing-header th{
 	padding: 8px 10px !important;
+}
+
+a.simple-btn i.icon{
+	display:none
+}
+
+body .xs-banner.inner-banner .banner-title{
+	font-size:0
+}
+
+.xs-banner.inner-banner .banner-title span{
+	font-size: 3.05882rem;
+	text-transform: uppercase;
+}
+
+body .portfolio-detail-banner{
+	min-height: 100px;
+}
+
+body .portfolio-detail-banner .banner-title{
+	font-size: 1.7rem;
+	font-weight: 600 !important;
+	margin-bottom: 0;
+}
+
+body .portfolio-detail-banner .container{
+	margin-top: 80px !important;
+}
+
+.lSSlideOuter .lSSlideWrapper{
+	min-height: 300px;
+}
+
+.single-portfolio .blog-post-group nav.post-navigation{
+	display:none
 }
